@@ -1,0 +1,29 @@
+body, html {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ header {
+	 width: 80%;
+	 margin: 0 auto;
+ }
+ 
+ form {
+	width: 50%;
+	margin: 0 auto;
+ }
+ 
+ input {
+	 display: block;
+	 font-size: 1rem;
+	 margin: 1rem;
+	 padding: 0.25rem;
+	 height: 1.25rem;
+ }
+ 
+ #register-button {
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 0.5rem;
+ }
