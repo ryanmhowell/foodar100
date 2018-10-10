@@ -11,21 +11,51 @@
 	<form method="post">
 	  <h1>Register</h1>
 	  <p>Please fill out the form below:</p>
+	  <br />
+	  <p>Details:</p>
 	  <div id="details" class="form-section">
-	    <p>Details:</p>
-	    <input type="email" name="email" placeholder="Email" required />
-		<input type="password" name="password" placeholder="Password" required />
-		<input type="text" name="first-name" placeholder="First Name" required />
-		<input type="text" name="last-name" placeholder="Last Name" required />
+		<div class="input-column left">
+		  <input type="text" name="first-name" placeholder="First Name" required />
+	      <input type="text" name="last-name" placeholder="Last Name" required />
+		</div>
+		<div class="input-column right">
+		  <input type="email" name="email" placeholder="Email" required />
+		  <input type="password" name="password" placeholder="Password" required />
+	    </div>
 	  </div>
+	  <br />
+	  <p>Address:</p>
 	  <div id="address" class="form-section">
-	    <p>Address:</p>
-	    <input type="number" name="address" placeholder="Address" required />
-		<input type="text" name="street" placeholder="Street" required />
-		<input type="text" name="city" placeholder="City" required />
-		<input type="number" name="zipcode" placeholder="Zipcode" required />
+		<div class="input-column left">
+	      <input type="number" name="address" placeholder="Address" required />
+		  <input type="text" name="street" placeholder="Street" required />
+		</div>
+		<div class="input-column right">
+		  <input type="text" name="city" placeholder="City" required />
+		  <input type="number" name="zipcode" placeholder="Zipcode" required />
+	    </div>
 	  </div>
-	  <button type="submit" id="register-button">Register</div>
+	  <button type="submit" id="register-button">Register</button>
 	</form>
+	<footer>
+	  <div id="footer-nav">
+	    <div class="footer-column">
+	      <h3 class="footer-heading">Site Map</h3>
+		  <p><a href="#">Home</a></p>
+		  <p><a href="#">Register</a></p>
+		  <p><a href="#">How it All Works</a></p>
+	    </div>
+	    <div class="footer-column">
+	      <h3 class="footer-heading">Legal</h3>
+		  <p><a href="#">Privacy Policy</a></p>
+		  <p><a href="#">Terms & Conditions</a></p>
+	    </div>
+	    <div class="footer-column">
+	      <h3 class="footer-heading">Food is life:)</h3>
+	    </div>
+	  </div>
+	  <p id="copyright">&copy; 2015. All rights reserved.</p>
+	  <p id="version-number">Version 1.0.9</p>
+	</footer>
   </body>
 </html>
