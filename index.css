@@ -2,4 +2,121 @@ body, html {
     margin: 0;
 	padding: 0;
     font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+}
+
+
+nav {
+	width: 80%;
+	margin: 1rem auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.col {
+	display: inline-flex;
+	align-items: center;
+}
+
+#sign-in-link {
+	color: black;
+	text-decoration: none;
+}
+
+#sign-in-link:hover {
+	color: #3da1aa;
+}
+
+/* image section  */
+
+#image-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url("./food.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 400px;
+}
+
+#img-txt-container {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#img-txt {
+	margin: 0;
+	padding: 1rem;
+	text-shadow: 4px 4px 4px #777;
+}
+
+#image-container p {
+	font-size: 4rem;
+	color: white;
+	font-weight: bold;
+}
+
+/*  zipcode section  */
+
+#zipcode-section {
+	margin: 0 2rem;
+}
+
+#zipcode-section h1, #zipcode-section p {
+	text-align: center;
+}
+
+#search {
+	display: flex;
+	justify-content: center;
+}
+
+#zipcode {
+	font-size: 1rem;
+	padding: 0.5rem;
+}
+
+#zipcode-button {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+
+/*  footer section  */
+
+footer {
+	background-color: #333;
+	padding: 1rem 0;
+	margin-top: 2rem;
+}
+
+#footer-nav {
+	display: flex;
+	align-items: top;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 3rem;
+	justify-content: space-between;
+}
+
+.footer-col {
+	display: inline-block;
+	width: 25%;
+}
+
+footer a, footer p {
+	color: white;
+	text-decoration: none;
+	font-size: 1.1rem;
+}
+
+footer ul li {
+	list-style: none;
+	margin: 1rem 0;
+	color: white;
+	font-size: 1.1rem;
+}
+
+#copyright {
+	text-align: center;
 }

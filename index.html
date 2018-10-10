@@ -1,30 +1,56 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My First Page</title>
+    <title>Foodar</title>
+	<link href="https://fonts.googleapis.com/css?family=Charmonman|Montserrat|Open+Sans" rel="stylesheet">
 	<link href="./index.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
     <div id="banner">
-	  banner information
 	</div>
 	<nav>
+	<img class="col left" src="./logo.png" />
+	<div class="col right" id="signup-container">
+	  <a id="sign-in-link" href="#">Sign-in / Register</a>
+	</div>
 	</nav>
 	<section id="image-section">
 	<div id="image-container">
+      <div id="img-txt-container">
+	    <p id="img-txt">Try a new meal today!</p>
+	  </div>
 	</div>
 	</section>
-	<section>
+	<section id="zipcode-section">
 	  <h1>Find a driver near you!</h1>
 	  <p>Type in your zipcode below and click Go! to find a driver near you</p>
-	  <input type="number" name="zipcode" id="zipcode" maxlength=5 placeholder="Zipcode" />
-	  <button id="zipcode-button">Go!</button>
+	  <div id="search">
+	    <input type="text" name="zipcode" id="zipcode" maxlength="5" placeholder="Zipcode" />
+	    <button id="zipcode-button">Go!</button>
+	  </div>
 	</section>
 	<footer>
-	<p>&copy; 2015. All rights reserved</p>
-	<a href="#">Home</a>
-	<a href="#">Privacy Policy</a>
-	<a href="#">Terms & Conditions</a>
+	  <div id="footer-nav">
+	    <div class="footer-col">
+		  <ul>
+		    <li><a href="#">Home</a></li>
+	        <li><a href="#">Register</a></li>
+	        <li><a href="#">How it all works</a></li>
+		  </ul>
+	    </div>
+	    <div class="footer-col">
+		  <ul>
+		    <li><a href="#">Privacy Policy</a></li>
+	        <li><a href="#">Terms & Conditions</a></li>
+		  </ul>
+	    </div>
+	    <div class="footer-col">
+		  <ul>
+		    <li>Lucky you :)</li>
+		  </ul>
+	    </div>
+	  </div>
+	  <p id="copyright">&copy; 2015. All rights reserved</p>
 	</footer>
   </body>
 </html>

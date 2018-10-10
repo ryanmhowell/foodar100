@@ -3,6 +3,7 @@ body, html {
 	margin: 0;
 	padding: 0;
 	line-height: 1.5rem;
+	font-family: "Open Sans", sans-serif;
 }
 
 p, .step-heading {
@@ -55,7 +56,7 @@ main {
 
 footer {
 	background-color: #333;
-	padding: 2rem 0;
+	padding: 1rem 0;
 }
 
 footer p {
@@ -71,6 +72,7 @@ footer p {
 	width: 100%;
 	display: inline-flex;
 	justify-content: space-around;
+	margin-bottom: 2rem;
 }
 
 .footer-column {
@@ -87,7 +89,6 @@ footer p {
 	color: white;
 	text-decoration: none;
 	text-align: left;
-	font-family: "Times New Roman", serif;
 }
 
 #copyright, #version-number {
@@ -96,7 +97,7 @@ footer p {
 }
 
 #version-number {
-	font-size: 0.8rem;
+	font-size: 1rem;
 }
 
 #enroll-button-container {
