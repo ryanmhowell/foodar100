@@ -21,15 +21,9 @@ h1 {
 /* logo section */
 
 header {
-	width: 90%;
-	margin: 2rem auto;
+	width: 95%;
+	margin: 1rem auto;
 }
-
-#logo-text {
-	color: #b22020;
-	margin: 0;
-}
-
 
 
 /*  main section  */
@@ -65,7 +59,7 @@ footer p {
 
 .footer-heading {
 	color: white;
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 }
 
 #footer-nav {
@@ -82,7 +76,7 @@ footer p {
 
 .footer-column p {
 	text-align: left;
-	font-size: 1.1rem;
+	font-size: 1rem;
 }
 
 .footer-column p a {

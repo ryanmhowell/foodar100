@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Request</title>
+	<link href="https://fonts.googleapis.com/css?family=Charmonman|Montserrat|Open+Sans" rel="stylesheet" />
+	<link href="request.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Submit Your Request</h1>
+	<h3>Please fill out the form below</h3>
+	<form method="post">
+	  
+	  <div id="address-container">
+	    <h3 id="address-heading">Address:</h3>
+		<input type="email" name="email" placeholder="Email" />
+	  </div>
+	  
+	  <div id="order-type-section">
+		<h3 id="order-type-heading">Choose Your Style:</h3>
+		<div id="order-type-container">
+		  <div id="classic-container" class="order-choice-container">
+		    <p>Classic</p>
+		    <p>This is a classic treatment</p>
+		    <input type="radio" id="classic-input" name="style" value="3" checked />
+		  </div>
+		  <div id="premium-container" class="order-choice-container">
+		    <p>Premium</p>
+		    <p>pinky's up</p>
+		    <input type="radio" id="premium-input" name="style" value="5" />
+		  </div>
+		  <div id="royal-container" class="order-choice-container">
+		    <p>Royal</p>
+		    <p>Your food is served on a silver platter. Literally.</p>
+		    <input type="radio" id="royal-input" name="style" value="10" />
+		  </div>
+		</div>
+	  </div>
+	  
+	  <div id="restaurant-container">
+	    <h3 id="restaurant-heading">Restaurant</h3>
+		<input type="text" placeholder="Name" required />
+	  </div>
+	  
+	  <div id="tip-section">
+	    <h3>Tip:</h3>
+		<div id="tip-amount-container">
+	      <div id="ten-percent" class="tip-amount">
+		    <p>10%</p>
+		    <p>They did their job</p>
+		    <input type="radio" id="ten-percent-input" name="tip" value="0.1" checked />
+		  </div>
+		  <div id="fifteen-percent" class="tip-amount">
+		    <p>15%</p>
+		    <p>They made you feel special</p>
+		    <input type="radio" id="fifteen-percent-input" name="tip" value="0.15" />
+		  </div>
+		  <div id="twenty-percent" class="tip-amount">
+		    <p>20%</p>
+		    <p>I wanna give them more, but this is all I have!</p>
+		    <input type="radio" id="twenty-percent-input" name="tip" value="0.2" />
+		  </div>
+		</div>
+	  </div>
+	  
+	  <div id="total-container" >Total:</div>
+	  
+	  <div>Request</div>
+	</form>
+  </body>
+</html>
